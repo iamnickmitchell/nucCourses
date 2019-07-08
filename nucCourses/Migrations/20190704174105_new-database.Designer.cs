@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using nucCourses.Data;
 
-namespace nucCourses.Data.Migrations
+namespace nucCourses.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190702195111_BD-Start")]
-    partial class BDStart
+    [Migration("20190704174105_new-database")]
+    partial class newdatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -371,8 +371,6 @@ namespace nucCourses.Data.Migrations
             modelBuilder.Entity("nucCourses.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.Property<int>("DateCreated");
 
                     b.Property<string>("FirstName")
                         .IsRequired();

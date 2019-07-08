@@ -13,5 +13,6 @@ namespace nucCourses.Models
 
         public Courses Course { get; set; }
         public Students Student { get; set; }
+
     }
 }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using nucCourses.Data;
 
-namespace nucCourses.Data.Migrations
+namespace nucCourses.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -369,8 +369,6 @@ namespace nucCourses.Data.Migrations
             modelBuilder.Entity("nucCourses.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.Property<int>("DateCreated");
 
                     b.Property<string>("FirstName")
                         .IsRequired();

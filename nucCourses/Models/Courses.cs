@@ -26,5 +26,8 @@ namespace nucCourses.Models
         public string ApplicationUserId { get; set; }
 
         public ApplicationUser ApplicationUser { get; set; }
+
+        public List<StudentCourses> StudentCourses { get; set; } = new List<StudentCourses>();
+
     }
 }
