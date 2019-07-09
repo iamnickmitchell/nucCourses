@@ -1,0 +1,54 @@
+﻿@model nucCourses.Models.Assessments
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Assessments</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MasteryScore)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MasteryScore)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Course)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Course.Description)
+        </dd>
+    <dt class="col-sm-2">
+        <a>Student Results:</a>
+    </dt>
+    <dt class="col-sm-2">
+        <a asp-controller="Results" asp-action="Create">Add a Students Scores</a>
+    </dt>
+    </dl>
+</div>
+<div>
+    @foreach (Results r in Model.Results)
+    {
+        <p> &#x270F <a asp-action="Details" asp-controller="Results" asp-route-id="@r.Id">@Html.DisplayFor(model => r.ScoreRaw)</a></p>
+    }
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -10,9 +10,10 @@ namespace nucCourses.Models
     {
         public int Id { get; set; }
 
+        [Display(Name = "Course Name")]
         public int CourseId { get; set; }
 
-        [Display(Name = "Total Time")]
+        [Display(Name = "Time Limit")]
         public int TotalTime { get; set; }
 
         [Display(Name = "Title")]

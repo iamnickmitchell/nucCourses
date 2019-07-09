@@ -51,3 +51,13 @@ C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor
 C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Details.g.cshtml.cs
 C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Edit.g.cshtml.cs
 C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Index.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Assessments\Create.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Assessments\Delete.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Assessments\Details.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Assessments\Edit.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Assessments\Index.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Results\Create.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Results\Delete.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Results\Details.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Results\Edit.g.cshtml.cs
+C:\Users\Newforce\Nick-Files\nucCourses\nucCourses\obj\Debug\netcoreapp2.2\Razor\Views\Results\Index.g.cshtml.cs
